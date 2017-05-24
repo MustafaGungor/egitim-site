@@ -14,6 +14,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <downloadSources>true</downloadSources>
         <plugin.compiler.version>3.2</plugin.compiler.version>
+        <spring-test-dbunit.version>1.2.1</spring-test-dbunit.version>
+        <dbunit.version>2.5.0</dbunit.version>
     </properties>
 
     <modules>
@@ -39,6 +41,16 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.github.springtestdbunit</groupId>
+                <artifactId>spring-test-dbunit</artifactId>
+                <version>${spring-test-dbunit.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.dbunit</groupId>
+                <artifactId>dbunit</artifactId>
+                <version>${dbunit.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.mebitech.samples.quickstart.domain</groupId>
                 <artifactId>egitim-site-domain</artifactId>
