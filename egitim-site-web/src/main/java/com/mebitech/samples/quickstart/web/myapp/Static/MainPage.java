@@ -4,12 +4,20 @@ package com.mebitech.samples.quickstart.web.myapp.Static;
  * Created by Diagram on 27/05/2017.
  */
 public class MainPage {
+
+    public static int sayi = 5;
+
     public static void main(String[] args) {
         //Static method ve değişkenlere nesne oluşturmadan direkt ulaşılır.
         System.out.println(staticMethod());
+        sayi++;
+        System.out.println(sayi);
+
         //Düz method ve değişkenlere new leyerek ulaşırsın.
         String normalValue = new MainPage().normalMethod();
         System.out.println(normalValue);
+
+
     }
     String normalMethod(){
         return "normal methodum ben";
