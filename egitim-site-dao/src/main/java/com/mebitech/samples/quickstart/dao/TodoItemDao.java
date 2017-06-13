@@ -6,7 +6,10 @@ import org.springframework.stereotype.Service;
 
 
 /**
- * Created by recepkoseoglu on 4/8/17.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 30/04/2017
+ * @see TodoItem
  */
 @Service
 public class TodoItemDao extends BaseDaoImpl<TodoItem, String> {

@@ -35,7 +35,6 @@ public class EncapOne {
         stringStringMap.put("baba","menderes");
         stringStringMap.put("kardeş","yunus emre");
         stringStringMap.put("arkadaş","serkan ekinci");
-
         return stringStringMap;
     }
 }

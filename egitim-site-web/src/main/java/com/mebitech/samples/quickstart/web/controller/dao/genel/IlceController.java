@@ -9,7 +9,10 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 /**
- * Created by Diagram on 29/04/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 30/04/2017
+ * @see Ilce
  */
 @RestController
 @RequestMapping(value = "ilceler")

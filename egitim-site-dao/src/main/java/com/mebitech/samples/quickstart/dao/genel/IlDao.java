@@ -7,10 +7,18 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * Created by Diagram on 29/04/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 29/04/2017.
+ * @see Il
  */
 @Service
 public class IlDao extends BaseDaoImpl<Il,String> {
+    /**
+     * İl classını geri döndüren method
+     * @param id
+     * @return List
+     */
     public List<Il> getAllAsc(String id) {
         return entityManager.createNamedQuery("Il.getAllAsc",Il.class).getResultList();
     }

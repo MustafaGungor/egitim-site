@@ -12,7 +12,9 @@ import java.util.List;
 
 /**
  * Created by kamilbukum on 06/03/2017.
+ *
  */
+
 @Entity
 public class Todo extends BaseEntity {
     private String header;

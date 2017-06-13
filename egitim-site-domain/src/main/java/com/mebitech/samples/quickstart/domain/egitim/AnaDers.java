@@ -8,12 +8,17 @@ import javax.persistence.Table;
 import java.io.Serializable;
 
 /**
- * Created by Diagram on 29/04/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 29/04/2017
+ * @see AnaDers
  */
 @Entity
 @NamedQuery(name = "AnaDers.getAllAsc", query = "SELECT c FROM AnaDers c order by c.dersKodu asc")
 public class AnaDers extends BaseEntity implements Serializable{
+    //AnaDers Adı
     private String name;
+    //AnaDers dersKodu
     private String dersKodu;
 
     public String getName() {
