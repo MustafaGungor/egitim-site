@@ -4,7 +4,9 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 
 /**
- * Created by Diagram on 28/05/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 28/05/2017
  */
 public class RunTest {
     public static void main(String[] args) throws Exception {

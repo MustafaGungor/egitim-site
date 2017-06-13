@@ -2,7 +2,11 @@ package com.mebitech.samples.quickstart.web.myapp.Examples;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+/**
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 04/06/2017.
+ */
 /**
  * Created by Diagram on 04/06/2017.
  * //////////////////////////////

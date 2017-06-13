@@ -4,7 +4,9 @@ import com.mebitech.samples.quickstart.domain.Todo;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * Created by kamilbukum on 06/03/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 06/03/2017.
  */
 public interface TodoRepository extends JpaRepository<Todo, String> {
 }

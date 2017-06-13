@@ -1,7 +1,10 @@
 package com.mebitech.samples.quickstart.web.myapp.Abstraction;
 
 /**
- * Created by Diagram on 05/06/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 05/06/2017
+ * @see MainMain
  */
 public class MainMain {
     public static void main(String[] args) {

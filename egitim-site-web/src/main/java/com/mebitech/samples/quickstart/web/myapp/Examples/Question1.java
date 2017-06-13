@@ -1,11 +1,16 @@
 package com.mebitech.samples.quickstart.web.myapp.Examples;
-
 /**
- * Created by Diagram on 04/06/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 04/06/2017.
+ */
+/**
+ * Created by Diagram on
  *  ////////////////////////////////////////
  *  20 ile 90 arasındaki asal sayıları bulan program
  *  ////////////////////////////////////////
  */
+
 public class Question1 {
     public static void main(String[] args) {
         int number1=20;

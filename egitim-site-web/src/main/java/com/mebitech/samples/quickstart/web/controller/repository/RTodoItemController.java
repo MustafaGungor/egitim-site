@@ -6,7 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * Created by kamilbukum on 06/03/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 13/04/2017
+ * @see TodoItem
  */
 @RestController
 @RequestMapping(value = "repository-todo-items")

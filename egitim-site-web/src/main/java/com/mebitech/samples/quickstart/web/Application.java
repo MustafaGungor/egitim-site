@@ -9,7 +9,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 /**
- * Created by kamilbukum on 03/03/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 24/03/2017.
  */
 
 @ComponentScan({"com.mebitech.samples.quickstart", "com.mebitech.robe"})

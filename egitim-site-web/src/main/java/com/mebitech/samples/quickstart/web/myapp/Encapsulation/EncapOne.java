@@ -6,11 +6,13 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by Diagram on 27/05/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 30/04/2017
  */
 public class EncapOne {
     /*
-    * pr'vate değişken ve metodlara sadece sınıf içerisinden erişilir
+    * private değişken ve metodlara sadece sınıf içerisinden erişilir
     * public her yer
     * protected o paket ve alt paketler
     * */

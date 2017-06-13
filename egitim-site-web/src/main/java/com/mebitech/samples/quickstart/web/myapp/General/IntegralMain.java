@@ -1,7 +1,9 @@
 package com.mebitech.samples.quickstart.web.myapp.General;
 
 /**
- * Created by Diagram on 27/05/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 27/05/2017.
  */
 public class IntegralMain {
     public static void main(String[] args) {

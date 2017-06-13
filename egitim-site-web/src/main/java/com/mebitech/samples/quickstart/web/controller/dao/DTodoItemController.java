@@ -7,7 +7,10 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * Created by kamilbukum on 06/03/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 30/04/2017
+ * @see TodoItem
  */
 @RestController
 @RequestMapping(value = "dao-todo-items")

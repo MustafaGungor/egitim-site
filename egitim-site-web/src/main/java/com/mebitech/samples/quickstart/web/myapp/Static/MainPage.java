@@ -1,10 +1,14 @@
 package com.mebitech.samples.quickstart.web.myapp.Static;
 
 /**
- * Created by Diagram on 27/05/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 27/05/2017.
  */
 public class MainPage {
-
+    /**
+     * varsayılan int sayi
+     */
     public static int sayi = 5;
 
     public static void main(String[] args) {

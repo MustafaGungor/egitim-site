@@ -7,7 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by kamilbukum on 06/03/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 06/03/2017.
  */
 @Service
 public class TodoServices extends JpaService<Todo, String> {

@@ -1,7 +1,10 @@
 package com.mebitech.samples.quickstart.web.myapp.Abstraction;
 
 /**
- * Created by Diagram on 05/06/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 30/04/2017
+ * @see SekilAbstract
  */
 public abstract class SekilAbstract {
     public abstract void Alan(int deger);

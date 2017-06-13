@@ -9,7 +9,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * Created by kamilbukum on 06/03/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 06/03/2017.
  */
 @Service
 public class TodoItemServices extends JpaService<TodoItem, String> {

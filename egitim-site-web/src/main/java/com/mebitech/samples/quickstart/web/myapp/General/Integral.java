@@ -1,7 +1,9 @@
 package com.mebitech.samples.quickstart.web.myapp.General;
 
 /**
- * Created by Diagram on 27/05/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 04/06/2017.
  */
 public class Integral {
     public double a,b,c,x,y,i;

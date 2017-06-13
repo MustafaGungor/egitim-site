@@ -7,7 +7,9 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * Created by kamilbukum on 06/03/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 06/03/2017.
  */
 @Repository
 public interface TodoItemRepository extends JpaRepository<TodoItem, String> {

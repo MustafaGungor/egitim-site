@@ -1,7 +1,9 @@
 package com.mebitech.samples.quickstart.web.myapp.EnumValue;
 
 /**
- * Created by MustafaGungor on 27/05/2017.
+ * @author MustafaGungor
+ * @version 1.0.0
+ * @since 27/05/2017
  */
 enum Iller {
     KONYA,ANKARA,KUTAHYA,IZMIR
