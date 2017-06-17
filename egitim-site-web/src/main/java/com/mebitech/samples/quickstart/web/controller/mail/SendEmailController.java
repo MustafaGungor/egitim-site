@@ -49,14 +49,17 @@ public class SendEmailController {
     /**
      * Mail kaydetme ve gönderme için Post methodundan faydalanıyor.
      * @param sendMail
-     * @return
+     * @return SendMail (Object)
      */
     @RequestMapping(method = RequestMethod.POST)
     public SendMail sendEmail( @RequestBody SendMail sendMail){
         final String username = "mustafagungorq@gmail.com";
         final String password = "Mustafa1";
+        /**
+         * Mail Property
+         */
         Properties props = new Properties();
-        props.put("mail.smtp.auth", "true");
+         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.starttls.enable", "true");
         props.put("mail.smtp.host", "smtp.gmail.com");
         props.put("mail.smtp.port", "587");
